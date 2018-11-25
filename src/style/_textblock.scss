@@ -5,16 +5,28 @@
   background-position:  50% 0;
   background-repeat: no-repeat;
   color: #848789;
+  line-height: 1.5;
 
-    &__heading1 {
+    &__heading {
       text-transform: uppercase;
+      color: black;
+    }
+
+    &__h3 {
+      color: black;
+      font-size: 15px;
+
       &--span {
-        text-transform: lowercase;
+        color: #848789;
       }
     }
 
     &__par {
       margin-top: 27px;
+
+      &--i {
+        font-style: italic;
+      }
     }
     &--twitter {
       background-image: url("../images/bg/twitterblue.png");

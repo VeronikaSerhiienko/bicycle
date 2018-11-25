@@ -7,6 +7,7 @@
   background-image: url("../images/img/img31.jpg");
   background-position:  bottom;  
   background-repeat: no-repeat;
+  line-height: 1.45;
   
   &--blacksaddle {
     background-image: url("../images/img/img41.jpg");
@@ -87,10 +88,11 @@
     }     
   }
 
-  &__h1 {
+  &__h2 {
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 25px;
+    color: black;
   }
 
   &__par {

@@ -2,13 +2,9 @@
 .bd {
   &__header {
     height: 100vh;
-    padding-top: 100px;
+    padding-top: 65px;
     padding-bottom: 400px;
     background: url("../images/bg/header.png") no-repeat center top/cover; 
-      
-      @media screen and (orientation: landscape) and (max-width: 1200px) {
-        padding-top: 20px;
-      }
   }
 
   &__nav {
@@ -62,11 +58,11 @@
         &:nth-child(3) {
           order: 2;
           position: absolute;
-          top: 200px;
+          top: 150px;
 
-          @media screen and (orientation: landscape) {
-            top: 100px;
-           }
+          // @media  (orientation: landscape) {
+          //   top: 100px;
+          //  }
 
           left: 18%;
         }
@@ -83,11 +79,11 @@
         &:nth-child(5) {
           order: 5;
           position: absolute;
-          top: 200px;
+          top: 150px;
 
-          @media screen and (orientation: landscape) {
-            top: 100px;
-           }
+          // @media  (orientation: landscape) {
+          //   top: 100px;
+          //  }
            
           right: 16%;
         }
@@ -110,6 +106,7 @@
     width: 67%;
     margin: 0 auto;
   }
+
   //third section
   &__34section {
     display: flex;
@@ -122,6 +119,8 @@
     display: flex;
     justify-content: space-evenly;
 }
+
+
 
   &__8section {
     background-image: url('../images/bg/logo.png');
