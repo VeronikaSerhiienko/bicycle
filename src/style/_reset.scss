@@ -1,0 +1,25 @@
+html,
+body,
+div,
+nav,
+section,
+h1,
+p,
+ul,
+img {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', 'Arial', sans-serif;
+  color: #848789;
+}

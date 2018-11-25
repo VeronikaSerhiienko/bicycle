@@ -1,0 +1,25 @@
+.bigimageblock {
+  height: 600px;
+  background-image: url("../images/img/img3.jpg");
+  flex-basis: 0;
+  flex-grow: 2;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: auto, cover;
+
+  &--blackbike {
+    background-image: url("../images/img/img4.jpg");
+  }
+
+  &--redbike {
+    background-image: url("../images/img/img5.jpg");
+  }
+
+  &--redbike2 {
+    background-image: url("../images/img/img52.jpg");
+  }
+
+   @media screen and (max-width: 600px) {
+    flex-grow: 0;
+  }
+}

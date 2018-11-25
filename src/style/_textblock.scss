@@ -1,0 +1,22 @@
+.textblock {
+  padding-top: 70px;
+  text-align: center;
+  background: url('../images/bg/icon2.png');
+  background-position:  50% 0;
+  background-repeat: no-repeat;
+  color: #848789;
+
+    &__heading1 {
+      text-transform: uppercase;
+      &--span {
+        text-transform: lowercase;
+      }
+    }
+
+    &__par {
+      margin-top: 27px;
+    }
+    &--twitter {
+      background-image: url("../images/bg/twitterblue.png");
+    }    
+}
