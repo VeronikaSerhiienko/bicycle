@@ -7,7 +7,6 @@
   background-image: url("../images/img/img31.jpg");
   background-position:  bottom;  
   background-repeat: no-repeat;
-  line-height: 1.45;
   
   &--black-saddle {
     background-image: url("../images/img/img41.jpg");
@@ -92,8 +91,9 @@
     font-size: 18px;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 27px;
     color: black;
+    line-height: 1.2;
   }
 
   &__par {
