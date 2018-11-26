@@ -1,4 +1,4 @@
-.bigimageblock {
+.big-image-block {
   height: 600px;
   background-image: url("../images/img/img3.jpg");
   flex-basis: 0;
@@ -7,16 +7,19 @@
   background-repeat: no-repeat;
   background-size: auto, cover;
 
-  &--blackbike {
+  &--black-bike {
     background-image: url("../images/img/img4.jpg");
   }
 
-  &--redbike {
+  &--red-bike {
     background-image: url("../images/img/img5.jpg");
   }
 
-  &--redbike2 {
+  &--red-bike2 {
     background-image: url("../images/img/img52.jpg");
+      @media screen and (max-width: 800px) {
+        display: none;
+      }
   }
 
    @media screen and (max-width: 600px) {
