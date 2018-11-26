@@ -4,7 +4,11 @@
     height: 100vh;
     padding-top: 65px;
     padding-bottom: 400px;
-    background: url("../images/bg/header.png") no-repeat center top/cover; 
+    background: url("../images/bg/header.png") no-repeat center top/cover;
+    
+      @media screen and (max-width: 1100px) {
+        padding-top: 35px;
+      }
   }
 
   &__nav {
