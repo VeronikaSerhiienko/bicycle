@@ -338,7 +338,7 @@ body {
   cursor: pointer;
 }
 
-.text-image-block__white-layer:hover .textimageblock__text {
+.text-image-block__white-layer:hover .text-image-block__text {
   max-height: 500px;
 }
 
