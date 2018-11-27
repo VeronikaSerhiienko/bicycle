@@ -14,7 +14,7 @@ gulp.task('sass', function () {
   .pipe(plumber())
   .pipe(sass({outputStyle: 'expanded'}).on('error', sass.logError))
   .pipe(autoprefixer({
-    browsers: ['last 42 versions'],
+    browsers: ['> 1%', 'last 2 Chrome versions', 'Firefox ESR'],
     cascade: false
   }))
   .pipe(gulp.dest('./build/style/'));

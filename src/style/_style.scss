@@ -9,98 +9,13 @@
       @media screen and (max-width: 1100px) {
         padding-top: 25px;
       }
-  }
-
-  &__nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  &__li {
-  text-align: center;  
-  text-transform: uppercase;
-  list-style-type: none;
-  margin-right: 4%;
-  font-size: 16px;
-
-    &:first-child:after,
-    &:nth-child(4):after {
-      content:".";
-      position: relative;
-      right: -24px;
-      cursor: default;
-
-      @media screen and (max-width: 1000px) {
-        display: none;
-      }
-    }    
-
-    &:last-child {
-      margin-right: 0;
-    }
-  }
-
-  &__header-a {
-    text-decoration: none;
-    transition-duration: 0.1s;
-    cursor: pointer;
-    color: #4d4959;
-    
-
-    &:hover {
-    color: #64c29e;
-    }
-  }
-
-  @media screen and (max-width: 700px) {
-    &__nav {
-    flex-wrap: wrap;
-    }
-
-    &__header-a {
-      margin: 0;
-      flex-basis: 50%;
-    }
-    
-    &__li {
-      margin-right: 3%;
-
-      &:first-child {
-        order: 1;
-        position: relative;      
-      }
-      
-      &:nth-child(2) {
-        order: 2;
-        position: absolute;
-        top: 120px;
-        left: 18%;
-      }
-
-      &:nth-child(3) {
-        order: 3;
-      }
-
-      &:nth-child(5) {
-        order: 4;
-        position: relative;          
-      }
-
-      &:nth-child(4) {
-        order: 5;
-        position: absolute;
-        top: 120px;
-        right: 16%;
-      }
-    }
-  } 
+  }  
 
 //second section
   &__about-feedbacks {
     padding-top: 119px;
     padding-bottom: 140px;
-    background-color: #f7f7f7;
+    background-color: $background-silver-color;
       
       &-container {
         width: 67%;
@@ -114,7 +29,7 @@
   }
 
   &__more {
-    background-color: #282f35;
+    background-color: $background-dark-color;
     padding-top: 65px;
     padding-bottom: 65px;
     display: flex;
@@ -139,9 +54,9 @@
       }
   }
 
-  &__frm {
-    padding-left: 5%;
-    padding-right: 5%;
+  &__form {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   &__footer {
@@ -149,7 +64,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding-top: 95px;
-    background-color: #f7f7f7;
+    background-color: $background-silver-color;
     padding-bottom: 75px;
 
       &-par {
@@ -163,6 +78,17 @@
           font-style: italic;
           white-space: nowrap;
         }
+      }
+
+      &-a {
+        text-decoration: none;
+        transition-duration: 0.1s;
+        cursor: pointer;
+        color: $dark-color-for-link;    
+
+          &:hover {
+          color: $green-primary;
+          }
       }
   }  
 

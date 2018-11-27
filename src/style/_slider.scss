@@ -20,7 +20,7 @@
       display: inline-block;
       width: 10px;
       height: 10px;
-      border: 1px solid #a9afb3;
+      border: 1px solid $grey-primary;
       border-radius: 50%;
       cursor: pointer;
     }
@@ -38,7 +38,7 @@
       }
 
       &:checked ~ .slider__controls .slider__label--1:after {
-        background: #a9afb3;
+        background: $grey-primary;
       }
     }
 
@@ -49,7 +49,7 @@
       }
 
       &:checked ~ .slider__controls .slider__label--2:after {
-        background: #a9afb3;
+        background: $grey-primary;
       }
     }
 
@@ -60,7 +60,7 @@
       }
 
       &:checked ~ .slider__controls .slider__label--3:after {
-        background: #a9afb3;
+        background: $grey-primary;
       }
     }
   }    

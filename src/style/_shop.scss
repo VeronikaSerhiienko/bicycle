@@ -6,7 +6,7 @@
   }
 
   &__item {
-      flex-grow: 1;
+    flex-grow: 1;
 
       &:nth-child(2) {
         @media screen and (min-width: 601px) and (max-width: 900px) {
@@ -58,7 +58,7 @@
 
     &:hover {
       &::after {
-        background-color: #58a589;
+        background-color: $green-primary;
         opacity: 0.7;
         cursor: pointer;
       }

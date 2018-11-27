@@ -19,7 +19,9 @@ img {
 	box-sizing: border-box;
 }
 
+@import 'variables';
+
 body {
-  font-family: 'Lato', 'Arial', sans-serif;
-  color: #848789;
+  font-family: $font-stack;
+  color: $text-color-primary;
 }

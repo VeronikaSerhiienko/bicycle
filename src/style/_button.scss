@@ -1,0 +1,28 @@
+.button {
+  padding: 15px 55px;
+  border: 1px solid $green-primary-alpha5;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: $green-primary;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 1s;
+  
+  &:hover {
+    background-color: $green-primary-alpha5;
+    color: $white-color;
+  }
+
+  &--white {
+    border: 1px solid $white-color-alpha5;
+    color: $white-color;
+
+    &:hover {
+      background-color: $white-color-alpha4;
+      color: $green-primary;
+    }
+  }
+}

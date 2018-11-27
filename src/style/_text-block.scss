@@ -4,21 +4,21 @@
   background: url('../images/bg/icon2.png');
   background-position:  50% 0;
   background-repeat: no-repeat;
-  color: #848789;
+  color: $text-color-primary;
 
     &__heading {
       text-transform: uppercase;
-      color: black;
+      color: $black-color;
       line-height: 1.2;
     }
 
     &__h3 {
-      color: black;
+      color: $black-color;
       font-size: 15px;
       line-height: 1.2;
 
       &--span {
-        color: #848789;
+        color: $text-color-primary;
       }
     }
 
