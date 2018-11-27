@@ -3,11 +3,11 @@
   justify-content: center;
   align-items: center;
   
-  &__link {
+  &__item {
     text-align: center;  
     text-transform: uppercase;
     list-style-type: none;
-    margin-right: 4%;
+    margin-right: 48px;
     font-size: 16px;
 
       &:first-child:after,
@@ -27,7 +27,7 @@
       }
   }
 
-  &__a {
+  &__link {
     text-decoration: none;
     transition-duration: 0.1s;
     cursor: pointer;
@@ -41,13 +41,13 @@
   @media screen and (max-width: 700px) {    
     flex-wrap: wrap;
   
-    &__a {
+    &__link {
       margin: 0;
       flex-basis: 50%;
     }
     
-    &__link {
-      margin-right: 3%;
+    &__item {
+      margin-right: 30px;
 
       &:first-child {
         order: 1;
